@@ -8,10 +8,28 @@ div.wrapper {
 }
 
 header {
-    background-color: #858585;
+    background-color: #aeaeae;
     min-height: 2rem;
-    display: grid;
+    display: flex;
+    justify-content: space-between;
 }
+
+nav {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    line-height: 2.4rem;
+    border-bottom: 2px solid black;
+}
+
+.headerIcons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
 
 main {
     max-width: 1000px;
@@ -19,6 +37,35 @@ main {
     min-height: 2rem;
     min-width: 100px;
     align-self: center;
+}
+
+main article .Chapter1 {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+main article h1 .thin {
+    font-weight: lighter;
+    font-style: italic;
+  }
+  
+main article h1 .bold {
+    font-weight: bolder;
+  }
+
+main article .BY {
+    font-style: normal;
+    font-weight: 700;
+}
+  
+.chapterHeading {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main article .chapterHeading p {
+    font-family: 'EB garamond';
 }
 
 .recipeCardsContainer {
@@ -37,6 +84,7 @@ main {
 .greenBg {
     background-color: green;
     grid-area: greenItem;
+    height: 416px;
 }
 
 .purpleBg {
