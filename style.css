@@ -14,13 +14,72 @@ header {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 12px;
+}
+
 nav {
     width: 20rem;
     display: flex;
     justify-content: space-between;
     margin-top: auto;
-    line-height: 2.4rem;
+    line-height: 2.5rem;
     border-bottom: 2px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.jellybeans {
+    font-size: 12px;
+}
+
+.pancakesPlateText {
+    padding: 1rem;
+}
+
+.pancakesPlateTextLarger {
+
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.heartsDotsAndArrow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.StarHeader {
+    display: flex;
+    align-items: baseline;
+    gap: 3px;
+}
+
+.StarHeader div:nth-child(1) {color: yellow;}
+.StarHeader div:nth-child(2) {color: yellow;}
+.StarHeader div:nth-child(3) {color: yellow;}
+.StarHeader div:nth-child(4) {color: yellow;}
+.StarHeader div:nth-child(5) {color: grey;}
+
+.ArrowButton {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5rem;
+}
+
+aside {
+    padding: 1rem;
+    border-left: #22222233 solid 1px;
 }
 
 .headerIcons {
@@ -30,31 +89,31 @@ nav {
 }
 
 
-
 main {
     max-width: 1000px;
-    background-color: hotpink;
     min-height: 2rem;
     min-width: 100px;
     align-self: center;
+    background-color: #e4e4e4;
 }
 
-main article .Chapter1 {
+.Chapter1 {
     font-family: 'EB Garamond', serif;
     font-style: italic;
     font-weight: bolder;
+    font-size: 17px;
 }
 
-main article h1 .thin {
+.thin {
     font-weight: lighter;
     font-style: italic;
   }
   
-main article h1 .bold {
+.bold {
     font-weight: bolder;
   }
 
-main article .BY {
+.BY {
     font-style: normal;
     font-weight: 700;
 }
@@ -64,16 +123,12 @@ main article .BY {
     font-family: 'Open Sans', sans-serif;
 }
 
-main article .chapterHeading p {
-    font-family: 'EB garamond';
-}
-
 .recipeCardsContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     grid-template-areas: "greenItem greenItem greenItem"
-        "purpleItem redItem blueItem"
+        "purpleItem redItem blueItem";
 }
 
 .recipeCard {
@@ -82,22 +137,123 @@ main article .chapterHeading p {
 }
 
 .greenBg {
-    background-color: green;
     grid-area: greenItem;
     height: 416px;
+    display: flex;
+}
+
+figcaption {
+    padding: 1rem;
 }
 
 .purpleBg {
-    background-color: purple;
+    background-color: rgb(251, 135, 251);
     grid-area: purpleItem;
+    width: 317px;
+    
 }
 
 .redBg {
-    background-color: red;
+    background-color: rgb(252, 136, 136);
     grid-area: redItem;
+    width: 317px;
 }
 
 .blueBg {
-    background-color: blue;
+    background-color: rgb(171, 171, 240);
     grid-area: blueItem;
+    width: 317px;
 }
+
+button {
+    display: block;
+    background-color: #fff;
+    padding: 1.5rem 2.7rem;
+    cursor: pointer;
+    border-radius: 35px;
+    font-size: 11px;
+    font-weight: 800;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.recipeCategoriesContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 66px;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dessertsText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h3, .breakfast-text, .lunch-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+.StarBreakfast {
+    display: flex;
+    align-items: baseline;
+    gap: 3px;
+}
+
+.StarBreakfast div:nth-child(1) {color: yellow;}
+.StarBreakfast div:nth-child(2) {color: yellow;}
+.StarBreakfast div:nth-child(3) {color: yellow;}
+.StarBreakfast div:nth-child(4) {color: grey;}
+.StarBreakfast div:nth-child(5) {color: grey;}
+
+.StarLunch {
+    display: flex;
+    align-items: baseline;
+    gap: 3px;
+}
+
+.StarLunch div:nth-child(1) {color: yellow;}
+.StarLunch div:nth-child(2) {color: yellow;}
+.StarLunch div:nth-child(3) {color: yellow;}
+.StarLunch div:nth-child(4) {color: yellow;}
+.StarLunch div:nth-child(5) {color: yellow;}
+
+
+.starNumber {
+    margin-left: 10px;
+    font-weight: 700;
+    color: black;
+}
+
+.dinner-text, .dinnerText {
+    display: flex;
+    justify-content: center;
+}
+
+
+figure {
+    margin-left: 22rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.jumbotron {
+    background-image: ;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
