@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #dadee3;
 }
 
 div.wrapper {
@@ -8,10 +9,11 @@ div.wrapper {
 }
 
 header {
-    background-color: #aeaeae;
+    background-color: #DADEE3;
     min-height: 2rem;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #22222233;
 }
 
 a {
@@ -42,6 +44,7 @@ nav {
 
 .pancakesPlateText {
     padding: 1rem;
+    background-color: white;
 }
 
 .pancakesPlateTextLarger {
@@ -65,16 +68,16 @@ h4 {
     gap: 3px;
 }
 
-.StarHeader div:nth-child(1) {color: yellow;}
-.StarHeader div:nth-child(2) {color: yellow;}
-.StarHeader div:nth-child(3) {color: yellow;}
-.StarHeader div:nth-child(4) {color: yellow;}
-.StarHeader div:nth-child(5) {color: grey;}
+.StarHeader div:nth-child(1) {color: #FFE350;}
+.StarHeader div:nth-child(2) {color: #FFE350;}
+.StarHeader div:nth-child(3) {color: #FFE350;}
+.StarHeader div:nth-child(4) {color: #FFE350;}
+.StarHeader div:nth-child(5) {color: #C4C4C4;}
 
 .ArrowButton {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 aside {
@@ -94,7 +97,6 @@ main {
     min-height: 2rem;
     min-width: 100px;
     align-self: center;
-    background-color: #e4e4e4;
 }
 
 .Chapter1 {
@@ -142,25 +144,21 @@ main {
     display: flex;
 }
 
-figcaption {
-    padding: 1rem;
-}
 
 .purpleBg {
-    background-color: rgb(251, 135, 251);
+    background-color: white;
     grid-area: purpleItem;
     width: 317px;
-    
 }
 
 .redBg {
-    background-color: rgb(252, 136, 136);
+    background-color: white;
     grid-area: redItem;
     width: 317px;
 }
 
 .blueBg {
-    background-color: rgb(171, 171, 240);
+    background-color: #FFE350;
     grid-area: blueItem;
     width: 317px;
 }
@@ -196,36 +194,43 @@ h6 {
     text-align: center;
 }
 
-h3, .breakfast-text, .lunch-text {
+.breakfast-text, .lunch-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 17px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.StarBreakfast {
+.descriptionText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 1rem;
+}
+
+.StarBreakfast, .StarLunch {
     display: flex;
     align-items: baseline;
     gap: 3px;
+    margin-left: 1rem;
 }
 
-.StarBreakfast div:nth-child(1) {color: yellow;}
-.StarBreakfast div:nth-child(2) {color: yellow;}
-.StarBreakfast div:nth-child(3) {color: yellow;}
-.StarBreakfast div:nth-child(4) {color: grey;}
-.StarBreakfast div:nth-child(5) {color: grey;}
+.StarBreakfast div:nth-child(1) {color: #FFE350;}
+.StarBreakfast div:nth-child(2) {color: #FFE350;}
+.StarBreakfast div:nth-child(3) {color: #FFE350;}
+.StarBreakfast div:nth-child(4) {color: #C4C4C4;}
+.StarBreakfast div:nth-child(5) {color: #C4C4C4;}
 
-.StarLunch {
-    display: flex;
-    align-items: baseline;
-    gap: 3px;
-}
 
-.StarLunch div:nth-child(1) {color: yellow;}
-.StarLunch div:nth-child(2) {color: yellow;}
-.StarLunch div:nth-child(3) {color: yellow;}
-.StarLunch div:nth-child(4) {color: yellow;}
-.StarLunch div:nth-child(5) {color: yellow;}
+
+.StarLunch div:nth-child(1) {color: #FFE350;}
+.StarLunch div:nth-child(2) {color: #FFE350;}
+.StarLunch div:nth-child(3) {color: #FFE350;}
+.StarLunch div:nth-child(4) {color: #FFE350;}
+.StarLunch div:nth-child(5) {color: #FFE350;}
 
 
 .starNumber {
@@ -247,7 +252,7 @@ figure {
 }
 
 .jumbotron {
-    background-image: ;
+
 }
 
 footer {
