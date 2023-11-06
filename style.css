@@ -77,7 +77,7 @@ h4 {
 .ArrowButton {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 aside {
@@ -133,11 +133,6 @@ main {
         "purpleItem redItem blueItem";
 }
 
-.recipeCard {
-    min-height: 6rem;
-    min-width: 6rem;
-}
-
 .greenBg {
     grid-area: greenItem;
     height: 416px;
@@ -149,12 +144,16 @@ main {
     background-color: white;
     grid-area: purpleItem;
     width: 317px;
+    margin-block: unset;
+    margin-inline: unset;
 }
 
 .redBg {
     background-color: white;
     grid-area: redItem;
     width: 317px;
+    margin-block: unset;
+    margin-inline: unset;
 }
 
 .blueBg {
@@ -163,13 +162,13 @@ main {
     width: 317px;
 }
 
-button {
+.viewallrecipesButton {
     display: block;
     background-color: #fff;
     padding: 1.5rem 2.7rem;
     cursor: pointer;
     border-radius: 35px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 800;
     margin: auto;
     margin-top: 5rem;
@@ -245,14 +244,88 @@ h6 {
 }
 
 
-figure {
+.quoteContainerImage {
     margin-left: 22rem;
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
 
 .jumbotron {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
+
+
+.jumbotronText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+    width: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotronHeading {
+
+}
+
+.jumbotroneSunday {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 42px;
+    max-width: 28rem;
+}
+
+.boldMenu {
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotroneBrunch {
+font-size: 42px;
+}
+
+.jumbotronButton {
+    background-color: #FFE350;
+    display: block;
+    padding: 1.5rem 2.7rem;
+    cursor: pointer;
+    border-radius: 35px;
+    font-size: 11px;
+    font-weight: 800;
+    margin-bottom: 5rem;
+}
+
+.viewNext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bolder {
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.thinner {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 footer {
