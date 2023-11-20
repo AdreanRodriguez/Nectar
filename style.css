@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 body {
     margin: 0;
     background-color: #dadee3;
@@ -47,9 +49,7 @@ nav {
     background-color: white;
 }
 
-.pancakesPlateTextLarger {
-
-}
+.pancakesPlateTextLarger {}
 
 h4 {
     font-size: 20px;
@@ -68,11 +68,25 @@ h4 {
     gap: 3px;
 }
 
-.StarHeader div:nth-child(1) {color: #FFE350;}
-.StarHeader div:nth-child(2) {color: #FFE350;}
-.StarHeader div:nth-child(3) {color: #FFE350;}
-.StarHeader div:nth-child(4) {color: #FFE350;}
-.StarHeader div:nth-child(5) {color: #C4C4C4;}
+.StarHeader div:nth-child(1) {
+    color: #FFE350;
+}
+
+.StarHeader div:nth-child(2) {
+    color: #FFE350;
+}
+
+.StarHeader div:nth-child(3) {
+    color: #FFE350;
+}
+
+.StarHeader div:nth-child(4) {
+    color: #FFE350;
+}
+
+.StarHeader div:nth-child(5) {
+    color: #C4C4C4;
+}
 
 .ArrowButton {
     display: flex;
@@ -109,17 +123,17 @@ main {
 .thin {
     font-weight: lighter;
     font-style: italic;
-  }
-  
+}
+
 .bold {
     font-weight: bolder;
-  }
+}
 
 .BY {
     font-style: normal;
     font-weight: 700;
 }
-  
+
 .chapterHeading {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -193,7 +207,8 @@ h6 {
     text-align: center;
 }
 
-.breakfast-text, .lunch-text {
+.breakfast-text,
+.lunch-text {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -210,26 +225,55 @@ h6 {
     margin-left: 1rem;
 }
 
-.StarBreakfast, .StarLunch {
+.StarBreakfast,
+.StarLunch {
     display: flex;
     align-items: baseline;
     gap: 3px;
     margin-left: 1rem;
 }
 
-.StarBreakfast div:nth-child(1) {color: #FFE350;}
-.StarBreakfast div:nth-child(2) {color: #FFE350;}
-.StarBreakfast div:nth-child(3) {color: #FFE350;}
-.StarBreakfast div:nth-child(4) {color: #C4C4C4;}
-.StarBreakfast div:nth-child(5) {color: #C4C4C4;}
+.StarBreakfast div:nth-child(1) {
+    color: #FFE350;
+}
+
+.StarBreakfast div:nth-child(2) {
+    color: #FFE350;
+}
+
+.StarBreakfast div:nth-child(3) {
+    color: #FFE350;
+}
+
+.StarBreakfast div:nth-child(4) {
+    color: #C4C4C4;
+}
+
+.StarBreakfast div:nth-child(5) {
+    color: #C4C4C4;
+}
 
 
 
-.StarLunch div:nth-child(1) {color: #FFE350;}
-.StarLunch div:nth-child(2) {color: #FFE350;}
-.StarLunch div:nth-child(3) {color: #FFE350;}
-.StarLunch div:nth-child(4) {color: #FFE350;}
-.StarLunch div:nth-child(5) {color: #FFE350;}
+.StarLunch div:nth-child(1) {
+    color: #FFE350;
+}
+
+.StarLunch div:nth-child(2) {
+    color: #FFE350;
+}
+
+.StarLunch div:nth-child(3) {
+    color: #FFE350;
+}
+
+.StarLunch div:nth-child(4) {
+    color: #FFE350;
+}
+
+.StarLunch div:nth-child(5) {
+    color: #FFE350;
+}
 
 
 .starNumber {
@@ -238,16 +282,84 @@ h6 {
     color: black;
 }
 
-.dinner-text, .dinnerText {
+.dinner-text,
+.dinnerText {
     display: flex;
     justify-content: center;
 }
 
 
 .quoteContainerImage {
-    margin-left: 22rem;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/Rectangle\ 12.png);
+    background-size: cover;
+    height: 416px;
+    width: 318px;
+    margin: 10rem auto 10rem auto;
+    position: relative;
+}
+
+.theTextOverImage {
+    /* position: absolute; */
+    width: 899px;
+    height: 418px;
+}
+
+.brunoTextLeft {
+    margin-right: 26rem;
+    margin-left: 2rem;
+}
+
+.brunoTextRight {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.4px;
+    margin-left: 40rem;
+    width: 18rem;
+    margin-top: -5rem;
+}
+
+.readmoreunderline {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Garamond';
+    line-height: 15.75px;
+}
+
+h5 {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 14px;
+    color: #222222;
+    ;
+}
+
+.biggerText {
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Garamond';
+    width: 394px;
+
+}
+
+.Magicspan {
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textrotation {
+    font-family: 'Allura';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    rotate: -2.1deg;
 }
 
 .jumbotron {
@@ -264,7 +376,7 @@ h6 {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    
+
     align-items: center;
     flex-direction: column;
     margin-top: 3rem;
@@ -278,9 +390,7 @@ h6 {
     justify-content: center;
 }
 
-.jumbotronHeading {
-
-}
+.jumbotronHeading {}
 
 .jumbotroneSunday {
     font-family: 'EB Garamond', serif;
@@ -296,7 +406,7 @@ h6 {
 }
 
 .jumbotroneBrunch {
-font-size: 42px;
+    font-size: 42px;
 }
 
 .jumbotronButton {
@@ -334,4 +444,3 @@ footer {
     align-items: center;
     flex-direction: column;
 }
-
